@@ -1,0 +1,76 @@
+.wrapper {
+  color: var(--color-3);
+  margin: 200px 10%;
+  padding: 0;
+}
+
+.wrapper img {
+  margin-top: -40px;
+  margin-left: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  color: var(--color-3);
+  margin-bottom: 50px;
+}
+
+p {
+  color: var(--color-3);
+  font-weight: bold;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.colu {
+  margin: 0px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+  display: inline-block;
+}
+
+.colu span {
+  border: 2px solid var(--color-2);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+ul {
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hv {
+  color: white;
+  background-color: var(--color-2);
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 100px 0;
+  }
+  .wrapper img {
+    max-width: 300px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+/*# sourceMappingURL=about.component.css.map */
